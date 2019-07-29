@@ -1,0 +1,48 @@
+@keyframes nyan-cat-pirate-vertical {
+	0% { background-image: url("cat-vertical-0.png"), url("rainbow.png"); }
+	8.3% { background-image: url("cat-vertical-1.png"), url("rainbow.png"); }
+	16.7% { background-image: url("cat-vertical-2.png"), url("rainbow.png"); }
+	25% { background-image: url("cat-vertical-3.png"), url("rainbow.png"); }
+	33.3% { background-image: url("cat-vertical-4.png"), url("rainbow.png"); }
+	41.7% { background-image: url("cat-vertical-5.png"), url("rainbow.png"); }
+	50% { background-image: url("cat-vertical-6.png"), url("rainbow.png"); }
+	58.3% { background-image: url("cat-vertical-7.png"), url("rainbow.png"); }
+	66.7% { background-image: url("cat-vertical-8.png"), url("rainbow.png"); }
+	75% { background-image: url("cat-vertical-9.png"), url("rainbow.png"); }
+	83.3% { background-image: url("cat-vertical-10.png"), url("rainbow.png"); }
+	91.7% { background-image: url("cat-vertical-11.png"), url("rainbow.png"); }
+	100% { background-image: url("cat-vertical-0.png"), url("rainbow.png"); }
+}
+
+@keyframes nyan-cat-pirate-vertical-reverse {
+	0% { background-image: url("cat-vertical-reverse-0.png"), url("rainbow.png"); }
+	8.3% { background-image: url("cat-vertical-reverse-1.png"), url("rainbow.png"); }
+	16.7% { background-image: url("cat-vertical-reverse-2.png"), url("rainbow.png"); }
+	25% { background-image: url("cat-vertical-reverse-3.png"), url("rainbow.png"); }
+	33.3% { background-image: url("cat-vertical-reverse-4.png"), url("rainbow.png"); }
+	41.7% { background-image: url("cat-vertical-reverse-5.png"), url("rainbow.png"); }
+	50% { background-image: url("cat-vertical-reverse-6.png"), url("rainbow.png"); }
+	58.3% { background-image: url("cat-vertical-reverse-7.png"), url("rainbow.png"); }
+	66.7% { background-image: url("cat-vertical-reverse-8.png"), url("rainbow.png"); }
+	75% { background-image: url("cat-vertical-reverse-9.png"), url("rainbow.png"); }
+	83.3% { background-image: url("cat-vertical-reverse-10.png"), url("rainbow.png"); }
+	91.7% { background-image: url("cat-vertical-reverse-11.png"), url("rainbow.png"); }
+	100% { background-image: url("cat-vertical-reverse-0.png"), url("rainbow.png"); }
+}
+
+progressbar.vertical progress {
+	min-width: 3ex;
+}
+
+progressbar.vertical progress.top:not(.pulse) {
+	animation: nyan-cat-pirate-vertical 0.84s infinite steps(12);
+}
+
+progressbar.vertical progress.bottom:not(.pulse) {
+	animation: nyan-cat-pirate-vertical-reverse 0.84s infinite steps(12);
+}
+
+progressbar.vertical progress.pulse {
+	animation: nyan-cat-pirate-vertical 0.84s infinite steps(12);
+}
+

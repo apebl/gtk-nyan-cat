@@ -1,0 +1,62 @@
+@keyframes nyan-cat-pikanyan {
+	0% { background-image: url("cat-0.png"), url("rainbow.png"); }
+	9% { background-image: url("cat-1.png"), url("rainbow.png"); }
+	18.2% { background-image: url("cat-2.png"), url("rainbow.png"); }
+	27.3% { background-image: url("cat-3.png"), url("rainbow.png"); }
+	36.4% { background-image: url("cat-4.png"), url("rainbow.png"); }
+	45.5% { background-image: url("cat-5.png"), url("rainbow.png"); }
+	54.5% { background-image: url("cat-6.png"), url("rainbow.png"); }
+	63.6% { background-image: url("cat-7.png"), url("rainbow.png"); }
+	72.7% { background-image: url("cat-8.png"), url("rainbow.png"); }
+	81.8% { background-image: url("cat-9.png"), url("rainbow.png"); }
+	90.1% { background-image: url("cat-10.png"), url("rainbow.png"); }
+	100% { background-image: url("cat-0.png"), url("rainbow.png"); }
+}
+
+@keyframes nyan-cat-pikanyan-reverse {
+	0% { background-image: url("cat-reverse-0.png"), url("rainbow.png"); }
+	9% { background-image: url("cat-reverse-1.png"), url("rainbow.png"); }
+	18.2% { background-image: url("cat-reverse-2.png"), url("rainbow.png"); }
+	27.3% { background-image: url("cat-reverse-3.png"), url("rainbow.png"); }
+	36.4% { background-image: url("cat-reverse-4.png"), url("rainbow.png"); }
+	45.5% { background-image: url("cat-reverse-5.png"), url("rainbow.png"); }
+	54.5% { background-image: url("cat-reverse-6.png"), url("rainbow.png"); }
+	63.6% { background-image: url("cat-reverse-7.png"), url("rainbow.png"); }
+	72.7% { background-image: url("cat-reverse-8.png"), url("rainbow.png"); }
+	81.8% { background-image: url("cat-reverse-9.png"), url("rainbow.png"); }
+	90.1% { background-image: url("cat-reverse-10.png"), url("rainbow.png"); }
+	100% { background-image: url("cat-reverse-0.png"), url("rainbow.png"); }
+}
+
+@keyframes nyan-cat-pikanyan-vertical {
+	0% { background-image: url("cat-0.png"), url("rainbow-vertical.png"); }
+	9% { background-image: url("cat-1.png"), url("rainbow-vertical.png"); }
+	18.2% { background-image: url("cat-2.png"), url("rainbow-vertical.png"); }
+	27.3% { background-image: url("cat-3.png"), url("rainbow-vertical.png"); }
+	36.4% { background-image: url("cat-4.png"), url("rainbow-vertical.png"); }
+	45.5% { background-image: url("cat-5.png"), url("rainbow-vertical.png"); }
+	54.5% { background-image: url("cat-6.png"), url("rainbow-vertical.png"); }
+	63.6% { background-image: url("cat-7.png"), url("rainbow-vertical.png"); }
+	72.7% { background-image: url("cat-8.png"), url("rainbow-vertical.png"); }
+	81.8% { background-image: url("cat-9.png"), url("rainbow-vertical.png"); }
+	90.1% { background-image: url("cat-10.png"), url("rainbow-vertical.png"); }
+	100% { background-image: url("cat-0.png"), url("rainbow-vertical.png"); }
+}
+
+progressbar.horizontal progress.left:not(.pulse) {
+	animation: nyan-cat-pikanyan 0.77s infinite steps(11);
+}
+
+progressbar.horizontal progress.right:not(.pulse) {
+	animation: nyan-cat-pikanyan-reverse 0.77s infinite steps(11);
+}
+
+progressbar.horizontal progress.pulse {
+	animation: nyan-cat-pikanyan 0.77s infinite steps(11);
+}
+
+progressbar.vertical progress.top:not(.pulse),
+progressbar.vertical progress.bottom:not(.pulse),
+progressbar.vertical progress.pulse {
+	animation: nyan-cat-pikanyan-vertical 0.77s infinite steps(11);
+}

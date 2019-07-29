@@ -1,0 +1,41 @@
+@keyframes nyan-cat-elevator {
+	0% { background-image: url("cat-0.png"), url("rainbow.png"); }
+	25% { background-image: url("cat-1.png"), url("rainbow.png"); }
+	50% { background-image: url("cat-2.png"), url("rainbow.png"); }
+	75% { background-image: url("cat-3.png"), url("rainbow.png"); }
+	100% { background-image: url("cat-0.png"), url("rainbow.png"); }
+}
+
+@keyframes nyan-cat-elevator-vertical {
+	0% { background-image: url("cat-0.png"), url("rainbow-vertical.png"); }
+	25% { background-image: url("cat-1.png"), url("rainbow-vertical.png"); }
+	50% { background-image: url("cat-2.png"), url("rainbow-vertical.png"); }
+	75% { background-image: url("cat-3.png"), url("rainbow-vertical.png"); }
+	100% { background-image: url("cat-0.png"), url("rainbow-vertical.png"); }
+}
+
+@keyframes nyan-cat-elevator-spin {
+	0% { background-image: url("cat-spin-0.png"); }
+	25% { background-image: url("cat-spin-1.png"); }
+	50% { background-image: url("cat-spin-2.png"); }
+	75% { background-image: url("cat-spin-3.png"); }
+	100% { background-image: url("cat-spin-0.png"); }
+}
+
+progressbar.horizontal progress.left:not(.pulse),
+progressbar.horizontal progress.right:not(.pulse),
+progressbar.horizontal progress.pulse {
+	animation: nyan-cat-elevator 0.56s infinite steps(4);
+	min-height: 4.5ex;
+}
+
+progressbar.vertical progress.top:not(.pulse),
+progressbar.vertical progress.bottom:not(.pulse),
+progressbar.vertical progress.pulse {
+	animation: nyan-cat-elevator-vertical 0.56s infinite steps(4);
+	min-width: 3.5ex;
+}
+
+spinner:checked {
+	animation: nyan-cat-elevator-spin 0.56s infinite steps(4);
+}

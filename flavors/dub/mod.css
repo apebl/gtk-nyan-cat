@@ -1,0 +1,8 @@
+progressbar.horizontal progress {
+	background-size: auto 100%, auto 60%;
+}
+
+progressbar.vertical progress {
+	background-size: 100% auto, 40% auto;
+	min-width: 6ex;
+}

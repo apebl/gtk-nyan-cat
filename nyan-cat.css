@@ -1,0 +1,155 @@
+@keyframes nyan-cat {
+	0% { background-image: url("nyan-cat/cat-0.png"), url("nyan-cat/rainbow.png"); }
+	8.3% { background-image: url("nyan-cat/cat-1.png"), url("nyan-cat/rainbow.png"); }
+	16.7% { background-image: url("nyan-cat/cat-2.png"), url("nyan-cat/rainbow.png"); }
+	25% { background-image: url("nyan-cat/cat-3.png"), url("nyan-cat/rainbow.png"); }
+	33.3% { background-image: url("nyan-cat/cat-4.png"), url("nyan-cat/rainbow.png"); }
+	41.7% { background-image: url("nyan-cat/cat-5.png"), url("nyan-cat/rainbow.png"); }
+	50% { background-image: url("nyan-cat/cat-6.png"), url("nyan-cat/rainbow.png"); }
+	58.3% { background-image: url("nyan-cat/cat-7.png"), url("nyan-cat/rainbow.png"); }
+	66.7% { background-image: url("nyan-cat/cat-8.png"), url("nyan-cat/rainbow.png"); }
+	75% { background-image: url("nyan-cat/cat-9.png"), url("nyan-cat/rainbow.png"); }
+	83.3% { background-image: url("nyan-cat/cat-10.png"), url("nyan-cat/rainbow.png"); }
+	91.7% { background-image: url("nyan-cat/cat-11.png"), url("nyan-cat/rainbow.png"); }
+	100% { background-image: url("nyan-cat/cat-0.png"), url("nyan-cat/rainbow.png"); }
+}
+
+@keyframes nyan-cat-reverse {
+	0% { background-image: url("nyan-cat/cat-reverse-0.png"), url("nyan-cat/rainbow.png"); }
+	8.3% { background-image: url("nyan-cat/cat-reverse-1.png"), url("nyan-cat/rainbow.png"); }
+	16.7% { background-image: url("nyan-cat/cat-reverse-2.png"), url("nyan-cat/rainbow.png"); }
+	25% { background-image: url("nyan-cat/cat-reverse-3.png"), url("nyan-cat/rainbow.png"); }
+	33.3% { background-image: url("nyan-cat/cat-reverse-4.png"), url("nyan-cat/rainbow.png"); }
+	41.7% { background-image: url("nyan-cat/cat-reverse-5.png"), url("nyan-cat/rainbow.png"); }
+	50% { background-image: url("nyan-cat/cat-reverse-6.png"), url("nyan-cat/rainbow.png"); }
+	58.3% { background-image: url("nyan-cat/cat-reverse-7.png"), url("nyan-cat/rainbow.png"); }
+	66.7% { background-image: url("nyan-cat/cat-reverse-8.png"), url("nyan-cat/rainbow.png"); }
+	75% { background-image: url("nyan-cat/cat-reverse-9.png"), url("nyan-cat/rainbow.png"); }
+	83.3% { background-image: url("nyan-cat/cat-reverse-10.png"), url("nyan-cat/rainbow.png"); }
+	91.7% { background-image: url("nyan-cat/cat-reverse-11.png"), url("nyan-cat/rainbow.png"); }
+	100% { background-image: url("nyan-cat/cat-reverse-0.png"), url("nyan-cat/rainbow.png"); }
+}
+
+@keyframes nyan-cat-vertical {
+	0% { background-image: url("nyan-cat/cat-0.png"), url("nyan-cat/rainbow-vertical.png"); }
+	8.3% { background-image: url("nyan-cat/cat-1.png"), url("nyan-cat/rainbow-vertical.png"); }
+	16.7% { background-image: url("nyan-cat/cat-2.png"), url("nyan-cat/rainbow-vertical.png"); }
+	25% { background-image: url("nyan-cat/cat-3.png"), url("nyan-cat/rainbow-vertical.png"); }
+	33.3% { background-image: url("nyan-cat/cat-4.png"), url("nyan-cat/rainbow-vertical.png"); }
+	41.7% { background-image: url("nyan-cat/cat-5.png"), url("nyan-cat/rainbow-vertical.png"); }
+	50% { background-image: url("nyan-cat/cat-6.png"), url("nyan-cat/rainbow-vertical.png"); }
+	58.3% { background-image: url("nyan-cat/cat-7.png"), url("nyan-cat/rainbow-vertical.png"); }
+	66.7% { background-image: url("nyan-cat/cat-8.png"), url("nyan-cat/rainbow-vertical.png"); }
+	75% { background-image: url("nyan-cat/cat-9.png"), url("nyan-cat/rainbow-vertical.png"); }
+	83.3% { background-image: url("nyan-cat/cat-10.png"), url("nyan-cat/rainbow-vertical.png"); }
+	91.7% { background-image: url("nyan-cat/cat-11.png"), url("nyan-cat/rainbow-vertical.png"); }
+	100% { background-image: url("nyan-cat/cat-0.png"), url("nyan-cat/rainbow-vertical.png"); }
+}
+
+@keyframes nyan-cat-spin {
+	0% { background-image: url("nyan-cat/cat-spin-0.png"); }
+	8.3% { background-image: url("nyan-cat/cat-spin-1.png"); }
+	16.7% { background-image: url("nyan-cat/cat-spin-2.png"); }
+	25% { background-image: url("nyan-cat/cat-spin-3.png"); }
+	33.3% { background-image: url("nyan-cat/cat-spin-4.png"); }
+	41.7% { background-image: url("nyan-cat/cat-spin-5.png"); }
+	50% { background-image: url("nyan-cat/cat-spin-6.png"); }
+	58.3% { background-image: url("nyan-cat/cat-spin-7.png"); }
+	66.7% { background-image: url("nyan-cat/cat-spin-8.png"); }
+	75% { background-image: url("nyan-cat/cat-spin-9.png"); }
+	83.3% { background-image: url("nyan-cat/cat-spin-10.png"); }
+	91.7% { background-image: url("nyan-cat/cat-spin-11.png"); }
+	100% { background-image: url("nyan-cat/cat-spin-0.png"); }
+}
+
+progressbar progress {
+	background-color: transparent;
+	background-origin: padding-box, content-box;
+	border: none;
+	outline: none;
+}
+
+progressbar.horizontal progress {
+	background-repeat: no-repeat, repeat-x;
+	background-size: auto 100%, 16px 60%;
+	min-height: 3ex;
+}
+
+progressbar.vertical progress {
+	background-repeat: no-repeat, repeat-y;
+	background-size: 100% auto, 40% 16px;
+	min-width: 4ex;
+}
+
+progressbar.horizontal progress.left:not(.pulse) {
+	animation: nyan-cat 0.84s infinite steps(12);
+	background-position: 100% 50%, 0% 50%;
+	padding-right: 3ex;
+	margin-right: -2ex;
+	border-top-left-radius: 50ex;
+	border-bottom-left-radius: 50ex;
+}
+
+progressbar.horizontal progress.right:not(.pulse) {
+	animation: nyan-cat-reverse 0.84s infinite steps(12);
+	background-position: 0% 50%, 100% 50%;
+	padding-left: 3ex;
+	margin-left: -2ex;
+	border-top-right-radius: 50ex;
+	border-bottom-right-radius: 50ex;
+}
+
+progressbar.horizontal progress.pulse {
+	animation: nyan-cat 0.84s infinite steps(12);
+	background-position: 50% 50%, 50% 50%;
+	min-width: 4ex;
+	border-radius: 50ex;
+}
+
+progressbar.vertical progress.top:not(.pulse) {
+	animation: nyan-cat-vertical 0.84s infinite steps(12);
+	background-position: 50% 100%, 50% 0%;
+	padding-bottom: 1ex;
+	margin-bottom: -1ex;
+	border-top-left-radius: 50ex;
+	border-top-right-radius: 50ex;
+}
+
+progressbar.vertical progress.bottom:not(.pulse) {
+	animation: nyan-cat-vertical 0.84s infinite steps(12);
+	background-position: 50% 0%, 50% 100%;
+	padding-top: 1ex;
+	margin-top: -1ex;
+	border-bottom-left-radius: 50ex;
+	border-bottom-right-radius: 50ex;
+}
+
+progressbar.vertical progress.pulse {
+	animation: nyan-cat-vertical 0.84s infinite steps(12);
+	background-position: 50% 50%, 50% 50%;
+	min-height: 5ex;
+	border-radius: 50ex;
+}
+
+spinner {
+	background: transparent;
+	-gtk-icon-source: none;
+	min-width: 5ex;
+	min-height: 2ex;
+	opacity: 0;
+}
+
+spinner:checked {
+	animation: nyan-cat-spin 0.84s infinite steps(12);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	opacity: 1;
+}
+
+spinner:checked:disabled {
+	opacity: 0.5;
+}
+
+@import url("nyan-cat/mod.css");
+

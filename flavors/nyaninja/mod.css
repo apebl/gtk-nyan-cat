@@ -1,0 +1,24 @@
+progressbar.vertical progress {
+	background-size: 67% auto, 20% 16px;
+	min-width: 8ex;
+}
+
+progressbar.horizontal progress.left:not(.pulse) {
+	margin-right: -4ex;
+}
+
+progressbar.horizontal progress.right:not(.pulse) {
+	margin-left: -4ex;
+}
+
+progressbar.vertical progress.top:not(.pulse) {
+	background-position: 2.2ex 100%, 50% 0%;
+}
+
+progressbar.vertical progress.bottom:not(.pulse) {
+	background-position: 2.2ex 0%, 50% 100%;
+}
+
+progressbar.vertical progress.pulse {
+	background-position: 2.2ex 50%, 50% 50%;
+}
