@@ -7,6 +7,7 @@ FLAVOR="$1"
 THEME_DIR="$2"
 
 mkdir -p "$THEME_DIR/gtk-3.0/nyan-cat"
+cp -r "flavors/original/." "$THEME_DIR/gtk-3.0/nyan-cat"
 cp -r "flavors/$FLAVOR/." "$THEME_DIR/gtk-3.0/nyan-cat"
 cp "nyan-cat.css" "$THEME_DIR/gtk-3.0"
 
