@@ -8,6 +8,7 @@ class NyanCatWindow(Gtk.Window):
         Gtk.Window.__init__(self, title="Nyan Cat Demo")
         self.set_border_width(16)
         self.connect("destroy", Gtk.main_quit)
+        self.resize(500, 300)
 
         hbox = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=12)
         self.add(hbox)

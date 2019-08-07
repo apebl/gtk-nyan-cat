@@ -11,6 +11,7 @@ class NyanCatWindow : Window {
 		title = "Nyan Cat Demo";
 		border_width = 16;
 		destroy.connect(Gtk.main_quit);
+		resize(500, 300);
 
 		var hbox = new Box(Orientation.HORIZONTAL, 12);
 		add(hbox);
