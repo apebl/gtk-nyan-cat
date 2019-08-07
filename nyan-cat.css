@@ -86,8 +86,6 @@ progressbar.horizontal progress.left:not(.pulse) {
 	background-position: 100% 50%, 0% 50%;
 	padding-right: 3ex;
 	margin-right: -2ex;
-	border-top-left-radius: 50ex;
-	border-bottom-left-radius: 50ex;
 }
 
 progressbar.horizontal progress.right:not(.pulse) {
@@ -95,15 +93,12 @@ progressbar.horizontal progress.right:not(.pulse) {
 	background-position: 0% 50%, 100% 50%;
 	padding-left: 3ex;
 	margin-left: -2ex;
-	border-top-right-radius: 50ex;
-	border-bottom-right-radius: 50ex;
 }
 
 progressbar.horizontal progress.pulse {
 	animation: nyan-cat 0.84s infinite steps(12);
 	background-position: 50% 50%, 50% 50%;
 	min-width: 4ex;
-	border-radius: 50ex;
 }
 
 progressbar.vertical progress.top:not(.pulse) {
@@ -111,8 +106,6 @@ progressbar.vertical progress.top:not(.pulse) {
 	background-position: 50% 100%, 50% 0%;
 	padding-bottom: 1ex;
 	margin-bottom: -1ex;
-	border-top-left-radius: 50ex;
-	border-top-right-radius: 50ex;
 }
 
 progressbar.vertical progress.bottom:not(.pulse) {
@@ -120,15 +113,12 @@ progressbar.vertical progress.bottom:not(.pulse) {
 	background-position: 50% 0%, 50% 100%;
 	padding-top: 1ex;
 	margin-top: -1ex;
-	border-bottom-left-radius: 50ex;
-	border-bottom-right-radius: 50ex;
 }
 
 progressbar.vertical progress.pulse {
 	animation: nyan-cat-vertical 0.84s infinite steps(12);
 	background-position: 50% 50%, 50% 50%;
 	min-height: 5ex;
-	border-radius: 50ex;
 }
 
 spinner {
