@@ -2,9 +2,7 @@
 
 Nyan Cat progress bars and spinners for GTK+.
 
-![Original nyan cat thumbnail](thumbnail-original.png)
-
-![Easter nyan cat thumbnail](thumbnail-easter.png)
+![Nyan Cat thumbnail](thumbnail.png)
 
 ## Flavors
 
