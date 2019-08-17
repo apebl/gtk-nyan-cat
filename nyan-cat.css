@@ -62,34 +62,6 @@
 	100% { background-image: url("nyan-cat/cat-spin-0.png"); }
 }
 
-progressbar {
-	background-image: url("nyan-cat/space.png");
-	background-color: transparent;
-	background-position: 50% 50%;
-	border: none;
-	outline: none;
-}
-
-progressbar.horizontal {
-	background-repeat: repeat;
-	background-size: 24px 24px;
-	padding-top: 1.2ex;
-	padding-bottom: 1.2ex;
-}
-
-progressbar.vertical {
-	background-repeat: repeat;
-	background-size: 24px 24px;
-	padding-left: 0.8ex;
-	padding-right: 0.8ex;
-}
-
-progressbar trough {
-	background: none;
-	border: none;
-	outline: none;
-}
-
 progressbar progress {
 	background-color: transparent;
 	background-origin: padding-box, content-box;
